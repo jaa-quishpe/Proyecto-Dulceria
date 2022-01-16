@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:dulces/theme/app_theme.dart';
 import 'package:dulces/routes/app_routes.dart';
 import 'package:dulces/screen/screens.dart';
+
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -15,7 +16,6 @@ class MyApp extends StatelessWidget {
       home: const HomeScreen(),
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.getAppRoutes(),
-      // onGenerateRoute: (settings) => AppRoutes.onGenerateRoute(settings),
       theme: AppTheme.lightTheme,
     );
   }

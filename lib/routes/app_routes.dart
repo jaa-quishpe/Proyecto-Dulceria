@@ -3,12 +3,22 @@ import 'package:dulces/models/menu_opction.dart';
 import 'package:dulces/screen/screens.dart';
 
 class AppRoutes {
-  static const initialRoute = 'home';
+  static const initialRoute = 'menu';
   static final menuOptions = <MenuOpction>[
     MenuOpction(
         route: 'home',
         name: 'Home Screen',
         screen: const HomeScreen(),
+        icon: Icons.home_max_sharp),
+    MenuOpction(
+        route: 'menu',
+        name: 'Menu',
+        screen: const MenuScreen(),
+        icon: Icons.home_max_sharp),
+    MenuOpction(
+        route: 'carrito',
+        name: 'Carrito',
+        screen: const CarritoScreen(),
         icon: Icons.home_max_sharp),
   ];
 
@@ -19,8 +29,4 @@ class AppRoutes {
     }
     return appRoutes;
   }
-
-  // static Route<dynamic> onGenerateRoute(RouteSettings settings) {
-  //   return MaterialPageRoute(builder: (context) => const AlertScreen());
-  // }
 }

@@ -1,5 +1,6 @@
-import 'package:dulces/block/login_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:dulces/block/login_bloc.dart';
+import 'package:dulces/routes/app_routes.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: const Color(0xffFE0000),
+    
         body: Center(
           child: SingleChildScrollView(
             child: Column(
@@ -255,9 +257,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       onPressed: () {
-        // setState(() {
-        //   Navigator.pushNamed(context, MenuBottomNavigation.id);
-        // });
+        setState(() {
+          Navigator.pushNamed(context, AppRoutes.menuOptions[1].route);
+        });
       },
     );
   }

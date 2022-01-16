@@ -6,6 +6,6 @@ class MenuScreen extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body:Text("Hola"),);
+    return const Scaffold(body:Text("Menu"),);
   }
 }

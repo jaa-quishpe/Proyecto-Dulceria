@@ -31,7 +31,7 @@ class _LateralMenuState extends State<LateralMenu> {
               children: [
                 Center(
                   child: Text(
-                    'Quiero \nDulces'.toUpperCase(),
+                    ' Super \nDulceria'.toUpperCase(),
                     style: const TextStyle(
                       fontSize: 40.0,
                       fontFamily: 'Impact',

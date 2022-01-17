@@ -69,7 +69,7 @@ class _LateralMenuState extends State<LateralMenu> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
-                Text('aMis Pedidos'),
+                Text('A Mis Pedidos'),
                 Icon(FontAwesomeIcons.receipt),
               ],
             ),

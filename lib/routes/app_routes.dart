@@ -3,7 +3,7 @@ import 'package:dulces/models/menu_opction.dart';
 import 'package:dulces/screen/screens.dart';
 
 class AppRoutes {
-  static const initialRoute = 'menu';
+  static const initialRoute = 'home';
   static final menuOptions = <MenuOpction>[
     MenuOpction(
         route: 'home',

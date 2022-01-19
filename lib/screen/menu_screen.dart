@@ -92,9 +92,9 @@ class _TypeProductosState extends State<TypeProductos> {
         MaterialState.focused,
       };
       if (states.any(interactiveStates.contains)) {
-        return Colors.red;
+        return Colors.lightBlueAccent;
       }
-      return Colors.red;
+      return Colors.lightBlueAccent;
     }
 
     return Scaffold(

@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Quiero \nDulces".toUpperCase(),
+                  "Dulce \nTentación ".toUpperCase(),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.white,
@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         });
                       },
                       child: const Text(
-                        'Registrate',
+                        'Regístrate ',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25.0,
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         });
                       },
                       child: const Text(
-                        'Inicia Sesion',
+                        'Inicia Sesión ',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25.0,
@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _textFieldName() {
     return TextFieldGeneral(
       labelText: 'Nombre',
-      hintText: 'Eduardo Garcia',
+      hintText: 'Alex Vilaña',
       icon: Icons.person_outline,
       onChanged: (value) {},
     );
@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         return TextFieldGeneral(
           labelText: 'Correo',
-          hintText: 'Eduardo Garcia',
+          hintText: 'axc.vilana@yavirac.edu.ec',
           icon: Icons.email_outlined,
           onChanged: bloc.changeEmail,
         );

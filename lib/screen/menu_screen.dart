@@ -112,6 +112,8 @@ class _TypeProductosState extends State<TypeProductos> {
                 subtitle: Text(data[index]['price']),
               ),
               Container(
+                height: 200.0,
+                width: double.infinity,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: NetworkImage(
@@ -157,7 +159,7 @@ class DB {
           "name": " KitKat",
           "price": "1.10",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nestle.com.ec%2Fsites%2Fg%2Ffiles%2Fpydnoa396%2Ffiles%2Fasset-library%2Fpublishingimages%2Fstories%2Fbrands%2Fchocolates%2Flogokitkat.png&imgrefurl=https%3A%2F%2Fwww.nestle.com.ec%2Fes%2Fmarcas%2Fchocolates%2Fkitkat&tbnid=jQ_6ri9KmnTDnM&vet=12ahUKEwiwktaumL_1AhXQIN8KHRTYCxAQMygLegUIARDXAQ..i&docid=K5iUdiGh7CZzaM&w=480&h=480&itg=1&q=chocolate%20kitkat&ved=2ahUKEwiwktaumL_1AhXQIN8KHRTYCxAQMygLegUIARDXAQ"
+              "https://tiaecuador.vteximg.com.br/arquivos/ids/164280-1000-1000/262722000.jpg?v=637061525815770000"
         },
         {
           "id": 2,
@@ -178,7 +180,7 @@ class DB {
           "name": " Lacasitos",
           "price": "1.50",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.yourspanishshop.es%2Ffe-800x800-ffffff-data%2Fproductos%2F0200246700843000q01011.jpg&imgrefurl=https%3A%2F%2Fwww.yourspanishshop.es%2Fen%2Fbuy-chocolate-from-spain%2Fbuy-chocolate-with-lacasitos%2Fp-674&tbnid=JsBrOsD6K4mniM&vet=12ahUKEwitxeHpmb_1AhUMneAKHYfnB2YQMygBegUIARDRAQ..i&docid=GlvthEd8E1Ki8M&w=800&h=800&itg=1&q=chocolate%20locasitos&ved=2ahUKEwitxeHpmb_1AhUMneAKHYfnB2YQMygBegUIARDRAQ"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgHRHFC-8E-IcOenYts9IGOxbkXoySOuZEKN-FHA7Lvd_7Yjt5l4WURqzq7yyEdYP7VmI&usqp=CAU"
         },
         {
           "id": 5,
@@ -192,56 +194,56 @@ class DB {
           "name": " Conguitos",
           "price": "1.00",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.lavanguardia.com%2Ffiles%2Fog_thumbnail%2Fuploads%2F2020%2F06%2F25%2F5fa9247f831a3.jpeg&imgrefurl=https%3A%2F%2Fwww.lavanguardia.com%2Fcribeo%2Festilo-de-vida%2F20200625%2F481947512999%2Fcampana-change-org-conguitos-genera-acalorado-debate-redes-sociales.html&tbnid=hGjPGUuApIGlcM&vet=12ahUKEwiMsaK_mr_1AhVMjOAKHY2bCL8QMygCegUIARDQAQ..i&docid=HS3tobZ0RNEDKM&w=1200&h=675&itg=1&q=chocolate%20conguitos&ved=2ahUKEwiMsaK_mr_1AhVMjOAKHY2bCL8QMygCegUIARDQAQ"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUrEBnJXUMK3V-iinXScY_RwLuknIpNCLffV_7VdV3hvj-qstrXbgQULjadc6b-McHlI&usqp=CAU"
         },
         {
           "id": 7,
           "name": " M&Ms",
           "price": "2.75",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmitienda.ec%2Fwp-content%2Fuploads%2F2020%2F06%2Fmm_mani_47g.png&imgrefurl=https%3A%2F%2Fmitienda.ec%2Fproduct%2Fmm-chocolate-con-mani-47g%2F&tbnid=lRAsEvwJAk5GRM&vet=12ahUKEwi35_Xomr_1AhVFGt8KHdcaA8sQMygOegUIARCPAg..i&docid=GE0E8w4R6Rn6tM&w=800&h=800&itg=1&q=chocolate%20M%26ms&ved=2ahUKEwi35_Xomr_1AhVFGt8KHdcaA8sQMygOegUIARCPAg"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrC4CtSYOfiO5XTsJm51XCG5PLIwwgDtDg_Vl22OmGZqhk_hPNDe4S1-BDmB4Dxv_cWwg&usqp=CAU"
         },
         {
           "id": 8,
           "name": " Twix",
           "price": "1.50",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Ftwix-chocolate-candy-bars-unwrapped-picture-id458129283%3Fs%3D612x612&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphoto%2Ftwix-chocolate-candy-bars-unwrapped-gm458129283-21267706&tbnid=toJ1BUgqFyudhM&vet=12ahUKEwiigK2Pm7_1AhVjg-AKHV6tDOkQMygHegUIARDUAQ..i&docid=FxJu-XG7LcYklM&w=612&h=286&itg=1&q=chocolate%20Twix&ved=2ahUKEwiigK2Pm7_1AhVjg-AKHV6tDOkQMygHegUIARDUAQ"
+              "https://media.istockphoto.com/photos/twix-chocolate-candy-bars-unwrapped-picture-id458129283?s=612x612"
         },
         {
           "id": 9,
           "name": " Snickers",
           "price": "1.00",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ebayimg.com%2Fthumbs%2Fimages%2Fg%2F6tEAAOSwu5thkndy%2Fs-l300.jpg&imgrefurl=https%3A%2F%2Fco.ebay.com%2Fb%2FSnickers-Chocolate-Sweets-Assortments-Almond%2F258022%2Fbn_95432131&tbnid=EZe19uMD0ESWJM&vet=12ahUKEwjFscu3m7_1AhWvneAKHdvbBSkQMygZegUIARC0Ag..i&docid=irH0-N7T9ptXAM&w=300&h=300&q=chocolate%20snikers&ved=2ahUKEwjFscu3m7_1AhWvneAKHdvbBSkQMygZegUIARC0Ag"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxpxQ0BebBSK2QMxTXoSAY9DONG1y5mJ3fp0TccUb9EFAphrrXEvH_ktJT6hOmHzi3r_Q&usqp=CAU"
         },
         {
           "id": 10,
           "name": " Tokke",
           "price": "2.10",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fgolmarymar.com.ar%2Fwp-content%2Fuploads%2FComboTokke72.jpg%3Ffit%3D600%252C600%26ssl%3D1&imgrefurl=https%3A%2F%2Fgolmarymar.com.ar%2Fproducto%2Fcombo-tokke-dulce-de-leche%2F&tbnid=WeCQQsu3JhclAM&vet=12ahUKEwiMtavtm7_1AhUdpOAKHb_DDkoQMygMegUIARDoAQ..i&docid=AeHZ5k-MebTvPM&w=600&h=600&itg=1&q=chocolate%20tokker&ved=2ahUKEwiMtavtm7_1AhUdpOAKHb_DDkoQMygMegUIARDoAQ"
+              "https://i0.wp.com/golmarymar.com.ar/wp-content/uploads/ComboTokke72.jpg?fit=600%2C600&ssl=1"
         },
         {
           "id": 11,
           "name": " Smarties",
           "price": "1.50",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbartalks.net%2Fwp-content%2Fuploads%2F2021%2F01%2Fsmarties-sharing-block-1024x672.jpg&imgrefurl=https%3A%2F%2Fbartalks.net%2Fes%2Fnestle-smarties-switch-to-paper-packaging-worldwide%2F&tbnid=2ns-87dRyIaaXM&vet=12ahUKEwjrpPaanL_1AhVDON8KHcI_BbIQMygMegUIARDtAQ..i&docid=N8_iRr1CHI91RM&w=1024&h=672&itg=1&q=chocolate%20smarties&ved=2ahUKEwjrpPaanL_1AhVDON8KHcI_BbIQMygMegUIARDtAQ"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnRXIcy1a8FZphYNMZ1rkvr3T_rR-lfXJqIELWnwAsCkPxlQzrolpbWZQ4Ec0fTe2SANQ&usqp=CAU"
         },
         {
           "id": 12,
           "name": " Hershey's",
           "price": "2.00",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic3.marialunarillos.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F1%2Fimage%2F9df78eab33525d08d6e5fb8d27136e95%2Fc%2Fh%2Fchocolatina-de-chocolate-con-leche-hersheys-1.jpg&imgrefurl=https%3A%2F%2Fwww.marialunarillos.com%2Fchocolatina-de-chocolate-con-leche-43-gr-hershey.html&tbnid=D7pi04oRG0n9MM&vet=12ahUKEwjXx6DHnL_1AhXLFN8KHXAmAUoQMygBegUIARDmAQ..i&docid=ADt3uq-LDXLUeM&w=800&h=800&itg=1&q=chocolate%20%20Hershey%27s&ved=2ahUKEwjXx6DHnL_1AhXLFN8KHXAmAUoQMygBegUIARDmAQ"
+              "https://ardiaprod.vteximg.com.br/arquivos/ids/204948-500-500/Chocolate-Hershey-s-con-Leche-20-Gr-_1.jpg?v=637605746530500000"
         },
         {
           "id": 13,
           "name": " Bounty",
           "price": "1.20",
           "url_image":
-              "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fthesweetseria.com%2Fwp-content%2Fuploads%2F2021%2F11%2FBounty-Chocolate-57g-1.png%3Ffit%3D600%252C600%26ssl%3D1&imgrefurl=https%3A%2F%2Fthesweetseria.com%2Fes%2Fproducto%2Fbounty-chocolate-57g%2F&tbnid=c9rNYB9v7vJOJM&vet=12ahUKEwjAl-junL_1AhVMD98KHcVeDM0QMygBegUIARDNAQ..i&docid=6LeY4ER_ioi_oM&w=600&h=600&itg=1&q=chocolate%20%20bounty&ved=2ahUKEwjAl-junL_1AhVMD98KHcVeDM0QMygBegUIARDNAQ"
+              "https://i0.wp.com/thesweetseria.com/wp-content/uploads/2021/11/Bounty-Chocolate-57g-1.png?fit=600%2C600&ssl=1"
         },
         {
           "id": 14,

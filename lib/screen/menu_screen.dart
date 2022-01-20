@@ -1,3 +1,4 @@
+import 'package:dulces/main.dart';
 import 'package:dulces/screen/lateral_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:dulces/theme/app_theme.dart';
@@ -84,6 +85,18 @@ class _TypeProductosState extends State<TypeProductos> {
 
   @override
   Widget build(BuildContext context) {
+    Color getColor(Set<MaterialState> states) {
+      const Set<MaterialState> interactiveStates = <MaterialState>{
+        MaterialState.pressed,
+        MaterialState.hovered,
+        MaterialState.focused,
+      };
+      if (states.any(interactiveStates.contains)) {
+        return Colors.lightBlueAccent;
+      }
+      return Colors.lightBlueAccent;
+    }
+
     return Scaffold(
       appBar: AppBar(
         actions: [],
@@ -98,19 +111,22 @@ class _TypeProductosState extends State<TypeProductos> {
                 title: Text(data[index]['name']),
                 subtitle: Text(data[index]['price']),
               ),
-              TextButton(
-                onPressed: () {},
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
-                    Icon(
-                      Icons.add_shopping_cart,
-                      color: Colors.black,
-                      size: 35.0,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  TextButton(
+                    onPressed: () =>
+                        MyApp().cart_shopping_list.addAll(dataCategory),
+                    child: Text(
+                      'agregar'.toUpperCase(),
+                      style: const TextStyle(color: Colors.white),
                     ),
-                    Text('add'),
-                  ],
-                ),
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.resolveWith(getColor),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

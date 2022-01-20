@@ -16,8 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final LoginBloc bloc = LoginBloc();
     return SafeArea(
       child: Scaffold(
-        backgroundColor: const Color(0xffFE0000),
-    
+        backgroundColor: const Color(0XFF40C4FF),
         body: Center(
           child: SingleChildScrollView(
             child: Column(
@@ -122,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
       style: ButtonStyle(
         elevation: MaterialStateProperty.all(10),
         backgroundColor: MaterialStateProperty.all(
-          const Color(0xffFF6969),
+          const Color(0XFF00E676),
         ),
         padding: MaterialStateProperty.all(
           const EdgeInsets.symmetric(
@@ -241,7 +240,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         backgroundColor: MaterialStateProperty.resolveWith<Color>(
-            (states) => const Color(0xffFF6969)),
+            (states) => const Color(0XFF00E676)),
         padding: MaterialStateProperty.resolveWith<EdgeInsets>(
           (states) => const EdgeInsets.symmetric(
             horizontal: 40.0,

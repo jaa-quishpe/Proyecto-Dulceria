@@ -1,4 +1,3 @@
-import 'package:dulces/main.dart';
 import 'package:dulces/screen/carrito_screen.dart';
 import 'package:dulces/screen/lateral_menu.dart';
 import 'package:flutter/material.dart';
@@ -78,11 +77,10 @@ class TypeProductos extends StatefulWidget {
 class _TypeProductosState extends State<TypeProductos> {
   late Map<String, dynamic> dataCategory;
   late List<Map<String, dynamic>> data = dataCategory['data'];
-  Map<String, dynamic> addProduct(Map<String, dynamic> product) {
-    // CarritoScreen(addProduct: ))
-    print(product);
-    return {'': ''};
-  }
+
+  // AGREGAMOS UN PRODUCTO AL CARRITO
+  void addProduct(Map<String, dynamic> product) =>
+      Carrito.addProduct(product);
 
   @override
   void initState() {
@@ -133,11 +131,19 @@ class _TypeProductosState extends State<TypeProductos> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   TextButton(
-                    // onPressed: () => addProduct(data[index]),
                     onPressed: () => addProduct(data[index]),
-                    child: Text(
-                      'agregar'.toUpperCase(),
-                      style: const TextStyle(color: Colors.white),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          'agregar'.toUpperCase(),
+                          style: const TextStyle(color: Colors.white),
+                        ),
+                        const Icon(
+                          Icons.add_shopping_cart_outlined,
+                          color: AppTheme.bgPrimary,
+                        ),
+                      ],
                     ),
                     style: ButtonStyle(
                       backgroundColor:

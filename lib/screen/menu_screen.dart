@@ -257,7 +257,7 @@ class DB {
           "name": " Ferrero",
           "price": "3.25",
           "url_image":
-              "2wCEAAoHCBEREhgSEREYERESERESGBgREhIYGBIYGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISGjcsJCw0NDQxNDQ0NDQxNDQxNDQ0NDQ0NDQ0NDQ0NDg0NDQ0NDQ0NDQ0NDQ0NjY0NDQ0NDQ0NP"
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOIGTdg2lTBS8G8HMIgHCEz3dR1c20DpvKEA&usqp=CAU"
         },
       ],
     },
@@ -692,7 +692,13 @@ class DB {
           "url_image":
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkp5cYi7QhDGxhDrhX1BEY0rFcVnJYXALRQ&usqp=CAU"
         },
-        {"id": 12, "name": "Misky", "price": "2.00", "url_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKM0xGhPmHGrJJV8a-bDoLcf0xybD5xSEyw&usqp=CAU"},
+        {
+          "id": 12,
+          "name": "Misky",
+          "price": "2.00",
+          "url_image":
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKM0xGhPmHGrJJV8a-bDoLcf0xybD5xSEyw&usqp=CAU"
+        },
         {
           "id": 13,
           "name": "Butter Toffees",

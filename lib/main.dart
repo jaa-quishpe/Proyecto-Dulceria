@@ -6,12 +6,7 @@ import 'package:dulces/screen/screens.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  MyApp({Key? key}) : super(key: key);
-
-  Map<String, dynamic> cart_shopping_list = CartShoppingList.cart_shopping_list;
-  Map<String, dynamic> getCartShoppingList() {
-    return cart_shopping_list;
-  }
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

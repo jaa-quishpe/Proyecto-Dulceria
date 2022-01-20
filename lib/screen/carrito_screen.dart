@@ -1,22 +1,26 @@
-import 'package:dulces/main.dart';
 import 'package:dulces/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
-class CartShoppingList {
-  static Map<String, dynamic> cart_shopping_list = {};
-}
-
 class CarritoScreen extends StatefulWidget {
-  const CarritoScreen({Key? key}) : super(key: key);
+  final Map<String, dynamic> Function(Map<String, dynamic>)? addProduct;
+  final Function? showAllProduct;
+  final Function(int)? deleteProduct;
+  final Function? deleteProducts;
+  const CarritoScreen(
+      {Key? key,
+      this.addProduct,
+      this.showAllProduct,
+      this.deleteProduct,
+      this.deleteProducts})
+      : super(key: key);
 
   @override
   State<CarritoScreen> createState() => _CarritoScreenState();
 }
 
 class _CarritoScreenState extends State<CarritoScreen> {
-  void getCartShoppingList() {}
-  Map<String, dynamic> cart_shopping_list = MyApp().getCartShoppingList();
-
+  Map<String, dynamic> cart_shopping_list = {};
+  Map<String, dynamic> get_cart_shopping_list() => cart_shopping_list;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -18,7 +18,7 @@ class AppRoutes {
     MenuOpction(
         route: 'carrito',
         name: 'Carrito',
-        screen: const CarritoScreen(),
+        screen: CarritoScreen(),
         icon: Icons.home_max_sharp),
   ];
 
